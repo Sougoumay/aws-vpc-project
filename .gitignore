@@ -1,2 +1,9 @@
-**.tfstate*
-.idea/*
+# IDE
+.idea/
+
+# Terraform
+**/.terraform/
+**.tfstate
+**.tfstate.backup
+**.tfvars
+**.terraform.lock.hcl

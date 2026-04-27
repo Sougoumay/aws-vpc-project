@@ -1,6 +1,7 @@
 resource "aws_ecr_repository" "infra_training_ecr" {
   name                 = "infra_training_ecr"
   image_tag_mutability = "IMMUTABLE_WITH_EXCLUSION"
+  force_delete         = true
   
 
   image_tag_mutability_exclusion_filter {
